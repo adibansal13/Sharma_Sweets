@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #311912;
+}
+body{
+    background-color: #f2efec;
+}
+.container{
+    max-width: 1440px;
+    padding-inline: 10px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:root{
+    --background-- : #DDC3BA;
+    --color-- : #311912;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.button{
+    background-color: var(--color--);
+    color: var(--background--);
+    padding: 10px 20px 10px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+.button i {
+    color: var(--background--);
+    margin-left: 5px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-section{
+    justify-content: space-between;
+}
+.nav-section img{
+    width: 90px;
+}
+.nav-child{
+    row-gap: 10x;
+    justify-content: space-around;
+}
+.nav-search input, ::placeholder{
+    width: 25vw;
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    color: var(--color--);
+    margin-inline: 30px 20px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 4px solid var(--color--) ;
+}
+.nav-search i{
+    font-size: 1.5rem;
+}
+.nav-list a{
+    padding-left: 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+header{
+    background-image: url(photo/6.jpg);
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 200px;
+}
+.header-section h1 {
+    font-size: 10rem;
+}
+.header-section h2 {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.header-section h3 {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+.popular-section{
+    margin-block: 30px;
+}
+.popular-text{
+    text-align: center;
+    margin-block: 80px;
+}
+.popular-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-image{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.product-child{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-card{
+    width: 20%;
+    padding: 10px;
+    border: 2px solid var(--color--);
+    border-radius: 10%;
+}
+.product-img img{
+    width: 100%;
+    background-color: white;
+    border-radius: 10%;
+}
+.product-card h3{
+    color: #7B442E;
+    opacity: 0.8;
+}
+
+.about-section{
+    /* width: 100%; */
+    margin-block: 50px;
+    padding: 50px 0px 200px 80px;
+    background-image: url(photo/5.jpg);
+    background-size: cover;
+}
+.about-text{
+    max-width: 50%;
+}
